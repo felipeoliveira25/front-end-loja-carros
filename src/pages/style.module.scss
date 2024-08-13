@@ -1,9 +1,70 @@
-.AppStyle {
-    width: 100%;
-    height: 100%;
+.container {
+    width: 100vw;
+    
     align-items: center;
+    
     display: flex;
     flex-direction: column;
+    background-color: #0B4F6C;
     
     
+    form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      background-color: #1F271B;
+      padding: 12px;
+      margin-top: 5rem;
+      width: 30%;
+    }
+
+    input{
+      width: 60%;
+      outline: none;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Oswald', sans-serif;
+    }
+
+    button{
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      width: 40%;
+      border: none;
+      border-radius: 4px;
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Oswald', sans-serif;
+     
+    }
+  }
+  .divLista{
+    width: 20%;
+  }
+
+  .itemLista{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row;
+    background-color: #CBB9A8;
+    color: #1F271B;
+    width: 100%;
+    height: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-between;
+  }
+
+  .itemListaText{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemListaIcons{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
   }
